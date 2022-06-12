@@ -1,0 +1,112 @@
+.feedback{
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family;
+    h1{
+        font-size: $font-32;
+        font-weight: bold;
+    }
+    ul{
+        display: flex;
+        margin-top: 104px;
+        margin-left: -8px;
+        margin-right: -8px;
+        li{
+            max-width: 352px;
+            padding-right: 32px;
+            padding-left: 32px;
+            margin-right: 8px;
+            margin-left: 8px;
+            border-radius: 12px;
+            position: relative;
+           .people{
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -56px;
+                }
+                }           
+            .feedback-p{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding-bottom: 24px;
+                    border-bottom: 1px solid #DDDDDD;
+                    padding-top: 48px;
+
+                }
+            }
+            h3{
+                font-size: 16px;
+                font-weight: bold;
+                padding-top: 24px;
+            }
+            .star{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 8px;
+                padding-bottom: 24px;
+                h4{
+                    font-size: 16px;
+   
+                }
+                ul{
+                    height: 0px;
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-wrap: wrap;
+                    margin-top: 0px;
+                    li{
+                        img{
+                            height: 16px;
+                            width: 16px;
+                        }
+
+                    }
+                }
+               
+            }
+
+        }
+    }
+}
+
+@media (max-width:376px) {
+    .feedback{
+        max-width: 335px;
+        margin: 0 auto;
+        h1{
+            font-size: $font-28;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 88px;
+            margin-left: 0px;
+            margin-right: 0px;
+            li{
+                margin-bottom: 88px;
+                .star{
+                    ul{
+                        display: flex;
+                        flex-wrap: nowrap;
+                    }
+                }
+                
+            }
+        }
+    }
+}

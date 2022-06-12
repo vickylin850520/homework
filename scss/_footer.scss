@@ -1,0 +1,59 @@
+    .footer{
+        font-family: $font-family;
+        .bg{
+            margin-top: 100px;
+            height: 503px;
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 260px;
+            }
+            .btn{
+                display: flex;
+                max-width: 136px;
+                a{
+                background-color: $color-blue;
+                font-size: $font-18;
+                padding: 12px 32px;
+                color: $color-white;
+                text-decoration: none;
+                border-radius: 27px;
+                margin-top: 48px;
+                }
+            }
+        }
+        .web{
+            p{
+                display: block;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-color: #F5F5F5;
+                font-size: $font-16;
+                text-align: center;
+            }
+        }
+    }
+
+@media (max-width:376px){
+    .footer{
+        .bg{
+            max-width: 375px;
+            height: 461px;
+            h1{
+                padding-right: 0px;
+                padding-left: 0px;
+                font-size: $font-24;
+            }
+
+        }
+
+    }
+}

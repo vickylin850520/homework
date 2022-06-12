@@ -1,0 +1,58 @@
+.content{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 534px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    .copywriting{
+        font-family: $font-family;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: $font-48;
+            font-weight: bold;
+            color: $color-black;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            line-height: 70px;
+        }
+        h2{
+            font-size: $font-20;
+            color: $color-black;
+
+        }
+        h3{
+            font-size: $font-16;
+            color: $color-blue;
+        }
+    }
+    img{
+        max-height: 534px;
+    }
+}
+
+@media (max-width:376px){
+    .content{
+        max-width: 335px;
+        margin: 0 auto;
+        .copywriting{
+            h1{
+                font-size: $font-32;
+                line-height: 46px;
+            }
+            h2{
+                font-size: $font-16;
+                line-height: 24px;
+            }
+    
+        }
+        img{
+            max-width: 304.32px;
+            margin: 0 auto;
+        }
+    }
+
+}

@@ -1,0 +1,38 @@
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    .nav{
+        max-width: 1180px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        a{
+            display: flex;
+            background-color: $color-red;
+            font-size: $font-16;
+            padding: 8px 32px;
+            color: $color-white;
+            text-decoration: none;
+            font-family:$font-family;
+            align-items: center;
+            border-radius: 22px;
+        }
+    }
+}
+@media (max-width:376px) {
+    .header{
+        margin: 0 auto;
+        max-width: 335px;
+        .nav{
+            display: flex;
+            align-items: center;
+            img{
+                max-height: 24px;
+            }
+        a{
+            height: 24px;
+        }
+        }
+    }    
+}
