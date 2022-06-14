@@ -16,7 +16,6 @@
         justify-content: space-between;
         flex-wrap: wrap;
         li{
-            height: 221px;
             max-width: 244px;
             display: flex;
             flex-direction: column;
@@ -25,12 +24,14 @@
             
             img{
                 max-width: 90px;
+                padding-bottom: 24px;
                 
             }
             h2{
                 font-size: $font-24;
                 font-weight: bold;
                 color: $color-black;
+                padding-bottom: 24px;
             }
             p{
                 font-size: $font-16;

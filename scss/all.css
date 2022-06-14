@@ -155,7 +155,13 @@ table {
 }
 
 .content img {
-  max-height: 534px;
+  max-width: 532px;
+}
+
+@media (max-width: 768px) {
+  .content img {
+    max-width: 350px;
+  }
 }
 
 @media (max-width: 376px) {
@@ -209,7 +215,6 @@ table {
 }
 
 .sns ul li {
-  height: 221px;
   max-width: 244px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,12 +233,14 @@ table {
 
 .sns ul li img {
   max-width: 90px;
+  padding-bottom: 24px;
 }
 
 .sns ul li h2 {
   font-size: 24px;
   font-weight: bold;
   color: #221E1F;
+  padding-bottom: 24px;
 }
 
 .sns ul li p {
